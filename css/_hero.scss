@@ -1,0 +1,24 @@
+@import 'variables';
+@import 'mixins';
+
+#hero {
+    .c-item {
+        height: 480px;
+        width: 100%;
+    }
+
+    .c-img {
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(0.6);
+    }    
+
+    .carousel-caption {
+
+        .btn {
+            border: 2px solid $color_letras_header;
+            @include style_button(20px, $color_letras_header, $color_acento)
+        }
+    }
+
+}

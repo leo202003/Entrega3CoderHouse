@@ -1,0 +1,47 @@
+.navbar {
+  background-color: #121212;
+}
+.navbar .container-fluid .navbar-brand {
+  font-size: 1.4em;
+  margin-left: 15px;
+  color: #ffffff;
+}
+.navbar .container-fluid .navbar-nav {
+  margin-right: 20px;
+}
+.navbar .container-fluid .navbar-nav .nav-link {
+  padding: 15px;
+  color: #ffffff;
+}
+.navbar .container-fluid .navbar-nav .nav-link:hover {
+  background-color: #252525;
+}
+.navbar .container-fluid .dropdown-menu {
+  background-color: #121212;
+  border: none;
+}
+.navbar .container-fluid .dropdown-menu .dropdown-item {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.navbar .container-fluid .dropdown-menu .dropdown-item:hover {
+  background-color: #252525;
+}
+
+#hero .c-item {
+  height: 480px;
+  width: 100%;
+}
+#hero .c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+#hero .carousel-caption .btn {
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: #7fb3ff;
+}
+
+/*# sourceMappingURL=styles.css.map */
