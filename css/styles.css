@@ -29,13 +29,16 @@
 }
 
 #hero .c-item {
-  height: 480px;
+  height: 550px;
   width: 100%;
 }
 #hero .c-img {
   height: 100%;
   object-fit: cover;
   filter: brightness(0.6);
+}
+#hero .carousel-caption h1 {
+  margin-top: 100px;
 }
 #hero .carousel-caption .btn {
   border: 2px solid #ffffff;
@@ -65,6 +68,34 @@
 
 .rec-lleg {
   background-color: rgb(245, 245, 245);
+}
+
+.collecciones .colleccion {
+  min-height: 600px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.collecciones .colleccion .btn {
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: #7fb3ff;
+}
+.collecciones .colleccion h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+.collecciones .colleccion:first-child {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/coleccion1.png);
+}
+.collecciones .colleccion:nth-child(2) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/coleccion2.jpg);
+}
+.collecciones .colleccion:last-child {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/coleccion3.png);
 }
 
 /*# sourceMappingURL=styles.css.map */

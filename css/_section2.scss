@@ -1,0 +1,50 @@
+@import 'variables';
+@import 'mixins';
+
+
+.collecciones {
+    .colleccion {
+        min-height: 600px;
+        .btn {
+            border: 2px solid $color_letras_header;
+            @include style_button(20px, $color_letras_header, $color_acento)
+        }
+        color: $color_letras_header;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-size: 3.0em;
+            font-weight: bold;
+        }
+    }
+    
+    .colleccion:first-child {
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ),
+        url(/images/coleccion1.png);
+    }
+
+    .colleccion:nth-child(2) {
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ),
+        url(/images/coleccion2.jpg);
+    }
+
+    .colleccion:last-child {
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ),
+        url(/images/coleccion3.png);
+    }
+}
