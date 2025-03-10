@@ -18,11 +18,13 @@
                 <span class="navbar-toggler-icon color"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse border-body" data-bs-theme="dark" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
+                    
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
+
                     <li class="nav-item dropdown">
                         <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"  aria-expanded="false">
                             Shop
@@ -33,9 +35,11 @@
                             <li><a class="dropdown-item" href="#">Calzado</a></li>
                         </ul>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Sale</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Contacto</a>
                     </li>
@@ -74,48 +78,55 @@
     </section>
 
     <!--Recien llegados-->
-    <section class="container">
-        <div class="row row1">
-            <h2>Recien llegados</h2>
+    <div class="container">
+        <h2 class="text-center mt-4 mb-4 fw-bolder">RECIÉN LLEGADOS</h2>
+        <div class="row g-4 justify-content-center"> 
+            <div class="col-sm-12 col-md-5"> 
+                <div class="card rec-llegados mx-auto">
+                    <img src="/images/recien-llegado3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fs-5">Remera con estampado</h5> 
+                        <p class="card-text">$1350</p>
+                        <a href="#" class="btn btn-primary px-3 py-1 fs-6 mt-3">Comprar</a> 
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-sm-12 col-md-5">
+                <div class="card rec-llegados mx-auto">
+                    <img src="/images/recien-llegado4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fs-4">Camisa Blanca</h5>
+                        <p class="card-text">$1490</p>
+                        <a href="#" class="btn btn-primary px-3 py-1 fs-6 mt-3">Comprar</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-sm-12 col-md-5">
+                <div class="card rec-llegados mx-auto">
+                    <img src="/images/recien-llegado1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fs-4">Bermuda cargo</h5>
+                        <p class="card-text">$1650</p>
+                        <a href="#" class="btn btn-primary px-3 py-1 fs-6 mt-3">Comprar</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-sm-12 col-md-5">
+                <div class="card rec-llegados mx-auto">
+                    <img src="/images/recien-llegado2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fs-4">Bermuda blanca</h5>
+                        <p class="card-text">$1280</p>
+                        <a href="#" class="btn btn-primary px-3 py-1 fs-6 mt-3">Comprar</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row row2">
-            <div class="card col-sm-12 col-md-6">
-                <img src="/images/recien-llegado3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h1 class="card-title">Card title</h1>
-                    <p class="card-text">$1350</p>
-                    <a href="#" class="btn btn-primary px-4 py-2 fs-5 mt-5">Go somewhere</a>
-                </div>
-            </div>
+    </div>
     
-            <div class="card col-sm-12 col-md-6">
-                <img src="/images/recien-llegado4.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h1 class="card-title">Card title</h1>
-                    <p class="card-text">$1490</p>
-                    <a href="#" class="btn btn-primary px-4 py-2 fs-5 mt-5">Go somewhere</a>
-                </div>
-            </div>
-    
-            <div class="card col-sm-12 col-md-6">
-                <img src="/images/recien-llegado1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h1 class="card-title">Card title</h1>
-                    <p class="card-text">$1650</p>
-                    <a href="#" class="btn btn-primary px-4 py-2 fs-5 mt-5">Go somewhere</a>
-                </div>
-            </div>
-    
-            <div class="card col-sm-12 col-md-6">
-                <img src="/images/recien-llegado2.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h1 class="card-title">Card title</h1>
-                    <p class="card-text">$1280</p>
-                    <a href="#" class="btn btn-primary px-4 py-2 fs-5 mt-5">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!--Ver Colecciones-->
     <section class="container-fluid">
