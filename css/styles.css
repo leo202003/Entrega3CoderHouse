@@ -143,11 +143,14 @@
   font-size: 1.6em;
   margin-bottom: 10px;
 }
-.footer .fila1 .col-footer2 .img-footer2 img {
+.footer .fila1 .col-footer2 .img-footer2 a {
+  text-decoration: none;
+}
+.footer .fila1 .col-footer2 .img-footer2 a img {
   margin-left: 5px;
   width: 40px;
 }
-.footer .fila1 .col-footer2 .img-footer2 :nth-child(2) {
+.footer .fila1 .col-footer2 .img-footer2 :nth-child(2) img {
   width: 34px;
 }
 .footer .fila2 {
