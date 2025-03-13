@@ -15,7 +15,7 @@
             margin-right: 20px;
 
             .nav-link {
-                padding: 15px; 
+                padding: 15px;
                 color: $color_letras_header;   
             }
 
@@ -38,6 +38,15 @@
             }
             
         }
-        
+
+        .buscador {
+            .btn {
+                color: $color_letras_header;
+                border: 1px solid $color_letras_header;
+                padding: 4px 10px;  
+                height: 37px;       
+                font-size: 14px; 
+            }
+        }
     }   
 }

@@ -1,13 +1,15 @@
 @import 'variables';
 @import 'mixins';
 
-
 .collecciones {
     .colleccion {
         min-height: 600px;
         .btn {
             border: 2px solid $color_letras_header;
             @include style_button(20px, $color_letras_header, $color_acento)
+        }
+        .btn:hover {
+            background-color: $hover_btn;
         }
         color: $color_letras_header;
         display: flex;

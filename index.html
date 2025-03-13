@@ -19,7 +19,7 @@
             </button>
 
             <div class="collapse navbar-collapse border-body" data-bs-theme="dark" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav">
                     
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
@@ -44,6 +44,11 @@
                         <a class="nav-link active" href="#">Contacto</a>
                     </li>
                 </ul>
+
+                <form class="d-flex ms-auto buscador" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar Productos" aria-label="Search">
+                    <button class="btn btn-sm btn-outline-secondary" type="button">Buscar</button>
+                </form>
           </div>
         </div>
     </nav>
@@ -78,58 +83,82 @@
     </section>
 
     <!--Recien llegados-->
-    <div class="container">
-        <h2 class="text-center mt-4 mb-4 fw-bolder">RECIÉN LLEGADOS</h2>
-        <div class="row g-4 justify-content-center"> 
-            <div class="col-sm-12 col-md-5"> 
-                <div class="card rec-llegados mx-auto">
-                    <img src="/images/recien-llegado3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title fs-4">Remera con estampado</h5> 
-                        <p class="card-text">$1350</p>
-                        <a href="#" class="btn btn-primary px-3 py-1 fs-5 mt-3">Comprar</a> 
-                    </div>
-                </div>
-            </div>
-    
-            <div class="col-sm-12 col-md-5">
-                <div class="card rec-llegados mx-auto">
-                    <img src="/images/recien-llegado4.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title fs-4">Camisa Blanca</h5>
-                        <p class="card-text">$1490</p>
-                        <a href="#" class="btn btn-primary px-3 py-1 fs-5 mt-3">Comprar</a>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="col-sm-12 col-md-5">
-                <div class="card rec-llegados mx-auto">
-                    <img src="/images/recien-llegado1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title fs-4">Bermuda cargo</h5>
-                        <p class="card-text">$1650</p>
-                        <a href="#" class="btn btn-primary px-3 py-1 fs-5 mt-3">Comprar</a>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="col-sm-12 col-md-5">
-                <div class="card rec-llegados mx-auto">
-                    <img src="/images/recien-llegado2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title fs-4">Bermuda blanca</h5>
-                        <p class="card-text">$1280</p>
-                        <a href="#" class="btn btn-primary px-3 py-1 fs-5 mt-3">Comprar</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
+    <section class="recien-llegados">
+        <div class="container">
+            <h2 class="text-center mt-4 mb-4 fw-bolder">RECIÉN LLEGADOS</h2>
+            <div class="row g-4 justify-content-center"> 
 
+                <div class="col-sm-12 col-md-4 mb-4"> 
+                    <div class="card rec-llegados mx-auto">
+                        <img src="/images/recien-llegado3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-4">Remera Street</h5> 
+                            <p class="card-text">$1350</p>
+                            <a href="#" class="btn btn-primary px-3 py-1 fs-5 mt-3">Comprar</a> 
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-sm-12 col-md-4 mb-4">
+                    <div class="card rec-llegados mx-auto">
+                        <img src="/images/recien-llegado5.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-4">Remera Oversize</h5>
+                            <p class="card-text">$1490</p>
+                            <a href="#" class="btn btn-primary px-3 py-1 fs-5 mt-3">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-sm-12 col-md-4 mb-4">
+                    <div class="card rec-llegados mx-auto">
+                        <img src="/images/recien-llegado1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-4">Bermuda cargo</h5>
+                            <p class="card-text">$1650</p>
+                            <a href="#" class="btn btn-primary px-3 py-1 fs-5 mt-3">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-sm-12 col-md-4 mb-4">
+                    <div class="card rec-llegados mx-auto">
+                        <img src="/images/recien-llegado2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-4">Bermuda blanca</h5>
+                            <p class="card-text">$1280</p>
+                            <a href="#" class="btn btn-primary px-3 py-1 fs-5 mt-3">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 mb-4"> 
+                    <div class="card rec-llegados mx-auto">
+                        <img src="/images/recien-llegado6.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-4">Vans 2022</h5> 
+                            <p class="card-text">$2180</p>
+                            <a href="#" class="btn btn-primary px-3 py-1 fs-5 mt-3">Comprar</a> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 mb-4"> 
+                    <div class="card rec-llegados mx-auto">
+                        <img src="/images/recien-llegado4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-4">Remera </h5> 
+                            <p class="card-text">$1350</p>
+                            <a href="#" class="btn btn-primary px-3 py-1 fs-5 mt-3">Comprar</a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+    
     <!--Ver Colecciones-->
-    <section class="container-fluid collecciones mt-4 mb-5">
+    <section class="container-fluid collecciones">
         <div class="row text-center">
             <div class="colleccion col-sm-12 col-md-4 ">
                 <h1>Remeras</h1>
@@ -147,49 +176,57 @@
     </section>
     
     <!--Informacion-->
-    <section class="container-fluid">
-        <div class="row">
-            <div class="informacion col-sm-12 col-md-4">
-                <img src="/images/envios-icon.png" alt="">
-                <h3>Envios</h3>
-                <p>Te llega de 24 a 48hs</p>
-            </div>
-            <div class="informacion col-sm-12 col-md-4">
-                <img src="/images/cambios-icon.png" alt="">
-                <h3>Cambios</h3>
-                <p>Hasta 30 dias para realizar el cambio</p>
-            </div>
-            <div class="informacion col-sm-12 col-md-4">
-                <img src="/images/tarjeta-icon.png" alt="">
-                <h3>Pagos</h3>
-                <p>Hasta 12 cuotas</p>
+    <section class="sec-info">
+        <div class="container-fluid">
+            <div class="row info text-center">
+                <div class="informacion col-sm-12 col-md-4">
+                    <img src="/images/envios-icon.png" alt="">
+                    <h3>Envios</h3>
+                    <p>Te llega de 24 a 48hs</p>
+                </div>
+                <div class="informacion col-sm-12 col-md-4">
+                    <img src="/images/cambios-icon.png" alt="">
+                    <h3>Cambios</h3>
+                    <p>Hasta 30 dias para realizar el cambio</p>
+                </div>
+                <div class="informacion col-sm-12 col-md-4">
+                    <img src="/images/tarjeta-icon.png" alt="">
+                    <h3>Pagos</h3>
+                    <p>Hasta 12 cuotas</p>
+                </div>
             </div>
         </div>
     </section>
     
     <!--Footer-->
 
-    <section class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12 col-md-6">
+    <section class="container-fluid footer">
+        <div class="row text-center fila1">
+            <div class="col-sm-12 col-md-6 mt-3 mb-2 col-footer1">
                 <h4>Metodos de pago</h4>
-                <img src="/images/mastercard.png" alt="">
-                <img src="/images/mp.png" alt="">
-                <img src="/images/visa.png" alt="">
+                <div class="img-footer1">
+                    <img src="/images/mastercard.png" alt="">
+                    <img src="/images/mp.png" alt="">
+                    <img src="/images/visa.png" alt="">
+                </div>
             </div>
 
-            <div class="col-sm-12 col-md-6">
+            <div class="col-sm-12 col-md-6 mt-3 mb-3 col-footer2">
                 <h4>Siguenos</h4>
-                <img src="/images/facebook.png" alt="">
-                <img src="/images/instagram.png" alt="">
-                <img src="/images/twitter.png" alt="">
+                <div class="img-footer2">
+                    <img src="/images/facebook.png" alt="">
+                    <img src="/images/instagram.png" alt="">
+                    <img src="/images/twitter.png" alt="">
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <p>&copy;StreetVibe2025</p>
+
+        <div class="row fila2">
+            <div class="col-sm-12 text-sm-center text-mb-left">
+                <p class="copy mt-auto mb-1 ">&copy;StreetVibe2025</p>
             </div>
         </div>
+        
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

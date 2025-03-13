@@ -27,6 +27,13 @@
 .navbar .container-fluid .dropdown-menu .dropdown-item:hover {
   background-color: #252525;
 }
+.navbar .container-fluid .buscador .btn {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 4px 10px;
+  height: 37px;
+  font-size: 14px;
+}
 
 #hero .c-item {
   height: 550px;
@@ -46,27 +53,36 @@
   color: #ffffff;
   background-color: #7fb3ff;
 }
-
-.card-img-top {
-  object-fit: cover;
-  max-height: 250px;
+#hero .carousel-caption .btn:hover {
+  background-color: #4b8ef3;
 }
 
-.card-body {
+.recien-llegados {
+  background-color: rgb(245, 245, 245);
+  padding: 40px 0;
+}
+.recien-llegados .container .card-img-top {
+  object-fit: cover;
+  max-height: 220px;
+}
+.recien-llegados .container .card-body {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-grow: 1;
 }
-.card-body .btn {
+.recien-llegados .container .card-body .btn {
   border: none;
   font-weight: 500;
   border-radius: 5px;
   color: #ffffff;
   background-color: #5b9afa;
 }
-
-.rec-lleg {
+.recien-llegados .container .card-body .btn:hover {
+  background-color: #4b8ef3;
+}
+.recien-llegados .container .rec-lleg {
   background-color: rgb(245, 245, 245);
 }
 
@@ -84,6 +100,9 @@
   color: #ffffff;
   background-color: #7fb3ff;
 }
+.collecciones .colleccion .btn:hover {
+  background-color: #4b8ef3;
+}
 .collecciones .colleccion h1 {
   font-size: 3em;
   font-weight: bold;
@@ -96,6 +115,43 @@
 }
 .collecciones .colleccion:last-child {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/coleccion3.png);
+}
+
+.sec-info {
+  width: 100%;
+  padding: 40px 0;
+  background-color: rgb(245, 245, 245);
+}
+.sec-info .info .informacion {
+  margin-top: 30px;
+}
+.sec-info .info .informacion img {
+  width: 100px;
+}
+.sec-info .info .informacion p {
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #121212;
+  color: #ffffff;
+}
+.footer .fila1 .col-footer1 img {
+  width: 43px;
+}
+.footer .fila1 .col-footer2 h4 {
+  font-size: 1.6em;
+  margin-bottom: 10px;
+}
+.footer .fila1 .col-footer2 .img-footer2 img {
+  margin-left: 5px;
+  width: 40px;
+}
+.footer .fila1 .col-footer2 .img-footer2 :nth-child(2) {
+  width: 34px;
+}
+.footer .fila2 {
+  background-color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */

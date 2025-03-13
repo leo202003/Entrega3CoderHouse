@@ -1,0 +1,20 @@
+@import 'variables';
+@import 'mixins';
+
+.sec-info {
+    width: 100%;
+    padding: 40px 0;
+    background-color: $color_fondo_secciones;
+    .info { 
+        .informacion {
+            margin-top: 30px;
+            img {
+                width: 100px;
+            }
+    
+            p {
+                font-weight: bold;
+            }
+        }
+    }
+}

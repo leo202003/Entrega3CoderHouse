@@ -1,0 +1,37 @@
+@import 'variables';
+@import 'mixins';
+
+.footer {
+    background-color: $color_fondo_header;
+    color: $color_letras_header;
+
+    .fila1 {
+        .col-footer1 {
+
+            img {
+                width: 43px;
+            }
+        }
+        
+        .col-footer2 {
+            h4 {
+                font-size: 1.6em;
+                margin-bottom: 10px;
+            }
+            .img-footer2 {
+                img {
+                    margin-left: 5px;
+                    width: 40px;
+                }
+                :nth-child(2) {
+                    width: 34px; 
+                }
+            }
+        }
+    }
+    
+
+    .fila2 {
+        background-color: black;
+    }
+}
