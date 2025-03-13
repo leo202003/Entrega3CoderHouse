@@ -5,6 +5,24 @@
     background-color: $color_fondo_header;
     .container-fluid {
 
+        .nav-item {
+
+            .dropdown-menu {
+                display: none;
+                visibility: hidden;
+                opacity: 0;
+                transition: opacity 0.2s ease-in-out;
+            }
+        }
+
+        .nav-item:hover {
+
+            .dropdown-menu {
+                display: block;
+                visibility: visible;
+                opacity: 1;
+            }
+        }
         .navbar-brand {
             font-size: 1.4em;
             margin-left: 15px;

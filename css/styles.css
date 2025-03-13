@@ -1,6 +1,17 @@
 .navbar {
   background-color: #121212;
 }
+.navbar .container-fluid .nav-item .dropdown-menu {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+.navbar .container-fluid .nav-item:hover .dropdown-menu {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
 .navbar .container-fluid .navbar-brand {
   font-size: 1.4em;
   margin-left: 15px;
