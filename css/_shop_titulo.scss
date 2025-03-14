@@ -1,0 +1,14 @@
+@import 'variables';
+@import 'mixins';
+
+.titulo {
+    background-color: $fondo_titulo_shop;
+    h1 {
+        font-size: 2.0em;
+        padding: 25px;
+        color: $color_letras_header;
+        margin-left: 50px;
+        margin-bottom: 0;
+    }
+    
+}

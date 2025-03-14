@@ -1,0 +1,39 @@
+@import 'variables';
+@import 'mixins';
+
+.shop {
+
+    .filtros {
+
+        h4 {
+            font-size: 1.0em;
+            font-weight: bold;
+        }
+
+        .precios {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8em;
+        }
+
+        .form-check {
+            margin-bottom: 15px;
+            .form-check-label {
+                font-size: 1.0em;
+            }
+        }
+        
+        .btn {
+            border: none;
+            font-weight: 500;
+            @include style_button(5px, $color_letras_header, #5b9afa)
+        }
+        .btn:hover {
+            background-color: $hover_btn;
+        }
+
+        .form-range {
+            
+        }
+    }
+}
