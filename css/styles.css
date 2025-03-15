@@ -119,13 +119,13 @@
   font-weight: bold;
 }
 .collecciones .colleccion:first-child {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/coleccion1.png);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) url(../images/coleccion1.png);
 }
 .collecciones .colleccion:nth-child(2) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/coleccion2.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) url(../images/coleccion2.jpg);
 }
 .collecciones .colleccion:last-child {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/coleccion3.png);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) url(../images/coleccion3.png);
 }
 
 .sec-info {
@@ -258,7 +258,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/equipo.jfif);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) url(../images/equipo.jfif);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
