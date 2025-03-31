@@ -8,7 +8,7 @@ Bienvenido al repositorio de **StreetVibe**, una tienda online de ropa urbana en
 
 ## 🎨 Funcionalidades Principales  
 ✔ Catálogo de productos con imágenes   
-✔ Filtros por precios y/o tipo de prenda
-✔ Informacion adicional sobre la tienda
-✔ Diseño responsive optimizado para móviles  
-✔ Página de contacto y formulario de consultas  
+✔ Filtros por precios y/o tipo de prenda  
+✔ Informacion adicional sobre la tienda  
+✔ Diseño responsive optimizado para móviles    
+✔ Página de contacto y formulario de consultas    
